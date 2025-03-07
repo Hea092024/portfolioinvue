@@ -4,22 +4,24 @@
       <h1>My Portfolio</h1>
     </header>
     <main>
-      <About />
-      <Projects />
-      <Contact />
+      <AboutPage />
+      <MyProjects />
+      <ContactPage />
     </main>
   </div>
 </template>
 
 <script>
-import About from './components/About.vue';
-import Contact from './components/Contact.vue';
-import Projects from './components/Projects.vue';
+import AboutPage from './components/AboutPage.vue';
+import ContactPage from './components/Contact.vue';
+import MyProjectsProjects from './components/MyProjects.vue';
 
 export default {
   name: 'App',
   components: {
-    About,
+    AboutPage,
+    ContactPage,
+    MyProjects
   },
 };
 </script>
