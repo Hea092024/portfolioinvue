@@ -13,8 +13,8 @@
 
 <script>
 import AboutPage from './components/AboutPage.vue';
-import ContactPage from './components/Contact.vue';
-import MyProjectsProjects from './components/MyProjects.vue';
+import ContactPage from './components/ContactPage.vue';
+import MyProjects from './components/MyProjects.vue';
 
 export default {
   name: 'App',
