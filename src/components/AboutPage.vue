@@ -10,6 +10,9 @@
           <p>
             I’ve worked on a variety of projects, ranging from simple HTML and CSS designs to more advanced applications built with JavaScript, React, and Vite. Recently, I’ve been diving into Vue to expand my skill set even further. My passion for frontend development comes from my love of design and the thrill of watching changes come to life in real time. There's something incredibly satisfying about transforming an idea into a functional, visually appealing experience.
           </p>
+          <p>
+            When I’m not coding or watching tutorials, I’m busy being a proud father to two amazing kids – a boy and a girl. My little girl has even asked me to teach her how to code, as she shares my passion for creativity and loves to draw and make things just like I do. It’s exciting to see her take an interest in something I’m so passionate about!
+          </p>
   </div>
 </template>
 
