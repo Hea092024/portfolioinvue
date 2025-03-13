@@ -17,6 +17,21 @@
       <li><a href="aboutme.html">About Me</a></li>
     </ul>
   </nav>
+
+    <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Frontend Developer</h1>
+      <p>
+        Building digital experiences that merge creativity with technology
+      </p>
+      <p class="higlight">Specializing in modern web development</p>
+      <a href="contact.html" class="cta-button">Let`s Connect</a>
+    </div>
+    <div class="hero-image">
+      <img src="../assets/logo.png" alt="Profile" class="profile-img" />
+    </div>
+  </section>
 </template>
 
 <script>
