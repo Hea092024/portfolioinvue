@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import MainPage from './components/MainPage.vue';
 import AboutPage from './components/AboutPage.vue';
 import ContactPage from './components/ContactPage.vue';
 import MyProjects from './components/MyProjects.vue';
@@ -20,6 +21,7 @@ import MyProjects from './components/MyProjects.vue';
 export default {
   name: 'App',
   components: {
+    MainPage,
     AboutPage,
     ContactPage,
     MyProjects
