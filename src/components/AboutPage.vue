@@ -13,6 +13,9 @@
           <p>
             When I’m not coding or watching tutorials, I’m busy being a proud father to two amazing kids – a boy and a girl. My little girl has even asked me to teach her how to code, as she shares my passion for creativity and loves to draw and make things just like I do. It’s exciting to see her take an interest in something I’m so passionate about!
           </p>
+          <p>
+            Feel free to explore my projects and reach out if you’re interested in collaborating. I’m continuously working on solo projects, which I’ll be updating in the "Projects" section, so be sure to check back for new updates and additions!
+          </p>
   </div>
 </template>
 
