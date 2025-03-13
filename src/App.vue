@@ -4,9 +4,10 @@
       <h1>My Portfolio</h1>
     </header>
     <main>
-      <AboutPage />
+      <MainPage />
       <MyProjects />
       <ContactPage />
+      <AboutPage />
     </main>
   </div>
 </template>
