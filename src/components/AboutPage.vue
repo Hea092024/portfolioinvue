@@ -8,11 +8,7 @@
             I’m currently attending a course at Jobloop to further expand my skills, and while I’m still learning, I’m eager to collaborate on projects or take on solo work related to design and development. I’m committed to putting in the hours needed to improve my coding abilities and create high-quality, impactful work.
           </p>
           <p>
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-            mollit anim id est laborum.
+            I’ve worked on a variety of projects, ranging from simple HTML and CSS designs to more advanced applications built with JavaScript, React, and Vite. Recently, I’ve been diving into Vue to expand my skill set even further. My passion for frontend development comes from my love of design and the thrill of watching changes come to life in real time. There's something incredibly satisfying about transforming an idea into a functional, visually appealing experience.
           </p>
   </div>
 </template>
