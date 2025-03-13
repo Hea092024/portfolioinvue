@@ -8,9 +8,9 @@
         <i class="fas fa-bars"></i>
       </div>
       <ul class="nav-links" :class="{ active: isNavActive }">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#home" @click="scrollToSection('#home')">Home</a></li>
+        <li><a href="#skills" @click="scrollToSection('#skills')">Skills</a></li>
+        <li><a href="#projects" @click="scrollToSection('#projects')">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="aboutme.html">About Me</a></li>
       </ul>
@@ -31,6 +31,15 @@ export default {
     toggleNav() {
       // Toggle the value of isNavActive
       this.isNavActive = !this.isNavActive;
+    },
+    scrollToSection(target) {
+      const section = document.querySelector(target);
+      if (section) {
+        section.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
     }
   }
 };
