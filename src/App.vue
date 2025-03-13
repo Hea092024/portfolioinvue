@@ -4,10 +4,10 @@
       <h1>My Portfolio</h1>
     </header>
     <main>
-      <MainPage />
-      <MyProjects />
-      <ContactPage />
-      <AboutPage />
+      <MainPage @update-page="updatePage" />
+      <AboutPage v-if="activePage === 'about'" />
+      <MyProjects v-if="activePage === 'projects'" />
+      <ContactPage v-if="activePage === 'contact'" />
     </main>
   </div>
 </template>
@@ -26,6 +26,16 @@ export default {
     ContactPage,
     MyProjects
   },
+  data() {
+    return {
+      activePage: 'main',  // Default to the home page
+    };
+  },
+  methods: {
+    updatePage(page) {
+      this.activePage = page;  // Change active page based on user selection
+    }
+  }
 };
 </script>
 

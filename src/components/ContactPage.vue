@@ -40,6 +40,5 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 5rem 5%;
-  background: green;
 }
 </style>
